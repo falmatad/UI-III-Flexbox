@@ -1,0 +1,250 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+​
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+​
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
+}
+​
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+.container {
+  width: 880px;
+  /* TB LR */
+  margin: 0 auto;
+}
+
+/* header */
+header{
+	display:flex;
+	border:2px solid red !important;
+	justify-content:space-evenly;
+}
+header nav {
+	display:flex;
+	justify-content:space-evenly;
+  margin-top: 35px;
+	width:691px;
+}
+
+header nav a {
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header nav a:first-child {
+  margin-left: 0;
+}
+
+header nav a:last-child {
+  margin-right: 0;
+}
+
+header .logo {
+  margin-top: 25px;
+}
+
+/* cta */
+.cta {
+	display:flex;
+  flex-direction: column;
+  align-content: space-between;
+	border: 2px solid red;
+  margin-bottom: 20px;
+}
+
+.cta .cta-text {
+  display:flex;
+  align-content: space-between;
+  vertical-align: top;
+  font-size: 20px;
+  text-align: left;
+  padding: 0px 75px;
+  margin-bottom: 20px;
+}
+
+.cta img {
+width: 880px;
+margin-bottom: 20px;
+}
+.cta p {
+width: 880px;
+margin-bottom: 20px;
+}
+.main-content {
+  height:800px;
+  width:880px;
+}
+.main-content .service-boxes {
+  display:flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+}
+.main-content .service-boxes .service-box {
+  width: 400px;
+  height: 250px;
+	display:flex;
+  flex-direction:column;
+  justify-content:space-evenly;
+  background:lightgrey;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom:20px;
+}
+
+.service-box button{
+  border: 1px solid black;
+  font-size:17px;
+  background: white;
+  margin-top:6px;
+  padding:2px;
+  height: 38px;
+  width: 150px;
+  border-radius: 7px;
+}
+}
+footer {
+  margin: 32px 0;
+  text-align: center;
+  font-size: 14px;
+}
