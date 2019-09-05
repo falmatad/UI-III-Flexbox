@@ -194,12 +194,12 @@ header .logo {
 }
 
 .cta .cta-text {
-  display:flex;
-  align-content: space-between;
-  vertical-align: top;
+  /* display:flex;
+  justify-content:flex-start; */
+  /* vertical-align: top; */
   font-size: 20px;
-  text-align: left;
-  padding: 0px 75px;
+  /* text-align: left; */
+  /* padding: 0px 75px; */
   margin-bottom: 20px;
 }
 
@@ -212,8 +212,9 @@ width: 880px;
 margin-bottom: 20px;
 }
 .main-content {
-  height:800px;
+  /* height:800px; */
   width:880px;
+  border: 1px solid blue;
 }
 .main-content .service-boxes {
   display:flex;
@@ -244,6 +245,7 @@ margin-bottom: 20px;
 }
 .bottom-section {
   display:flex;
+  border:1px solid red;
 }
 .bottom-section .column-items{
   display:flex;
