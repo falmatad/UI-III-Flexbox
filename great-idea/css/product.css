@@ -242,16 +242,6 @@ margin-bottom: 20px;
   width: 150px;
   border-radius: 7px;
 }
-.bottom-section {
-  display:flex;
-}
-.bottom-section .column-items{
-  display:flex;
-  flex-direction: column;
-  margin:10px;
-}
-.bottom-section .column-items li{
-  line-height:30px;
 }
 footer {
   margin: 32px 0;
